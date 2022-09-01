@@ -19,7 +19,9 @@ https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-ap
 ## Available pages
 
 /
+
 /login
+
 /milkis
 
 ## Website Links for GCP and Azure
