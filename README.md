@@ -1,4 +1,4 @@
-# flask-part-1
+# flask-part-1 instructions
 
 Create a new github repo called 'flask-part-1': 
 
@@ -15,3 +15,13 @@ Additional readings, examples to assit:
 
 Flask tutorial:
 https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-application-using-flask-and-python-3
+
+## Available pages
+
+/
+/login
+/milkis
+
+## Website Links for GCP and Azure
+
+insert here
