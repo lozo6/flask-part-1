@@ -39,7 +39,7 @@ def login():
 
 @app.route('/milkis')
 def milkis():
-
+    return 'hello'
 # this is to test if the script can run on localhost
 if __name__ == '__main__':
     app.run(debug=True, host='localhost', port=80)
