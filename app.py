@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-# landing page
+# this is the home page that will display Hello World
 @app.route('/')
 def hello():
     return '''<html>
@@ -16,6 +16,7 @@ def hello():
     </html>
     '''
 
+# this page will show a heading and a button that has an alert
 @app.route('/login')
 def login():
     return '''<html>
@@ -37,6 +38,7 @@ def login():
     </html>
     '''
 
+# this page will show you a heading and a picture
 @app.route('/milkis')
 def milkis():
     return '''<html>
