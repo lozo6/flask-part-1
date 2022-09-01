@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     return '''<html>
     <style>
-        h1 {text-align: center}
+        h1 {text-align: center; font-family: Arial}
     </style>
 
     <h1>
@@ -20,8 +20,8 @@ def hello():
 def login():
     return '''<html>
     <style>
-        h1 {text-align: center}
-        button {font-size: 20px; padding: 7px; border-radius: 7px}
+        h1 {text-align: center; font-family: Arial}
+        button {font-family; Arial; font-size: 20px; padding: 7px; border-radius: 7px}
         #container {text-align: center}
     </style>
 
@@ -39,7 +39,22 @@ def login():
 
 @app.route('/milkis')
 def milkis():
-    return 'hello'
+    return '''<html>
+    <style>
+        h1 {text-align: center; font-family: Arial}
+        #container {text-align: center}
+    </style>
+
+    <h1>
+        This is a picture of Milkis
+    </h1>
+
+    <div id='container'>
+        <img src='https://cdn.shopify.com/s/files/1/0338/0694/2253/products/LotteMilkisDrinkCanOriginalFlavor8.45oz_front_900x.jpg?v=1650574585'>
+    </div>
+    </html>
+    '''
+
 # this is to test if the script can run on localhost
 if __name__ == '__main__':
     app.run(debug=True, host='localhost', port=80)
