@@ -39,4 +39,6 @@ https://docs.microsoft.com/en-us/azure/machine-learning/how-to-access-azureml-be
 
 ## Website Links for GCP and Azure
 
-insert here
+GCP: http://35.239.21.190
+
+Azure: http://20.168.27.156
